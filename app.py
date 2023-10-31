@@ -23,8 +23,8 @@ def extract_text_from_pdf(file_path):
 choice = st.sidebar.selectbox("Select your choice", ["Summarize Text", "Summarize Document"])
 
 if choice == "Summarize Text":
-    st.subheader("Summarize Text using txtai")
-    input_text = st.text_area("Enter your text here")
+    st.subheader("Summarize Text For NLP Project")
+    input_text = st.text_area("Enter your text here ")
     if input_text is not None:
         if st.button("Summarize Text"):
             col1, col2 = st.columns([1,1])
